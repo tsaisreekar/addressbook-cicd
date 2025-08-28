@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('checking code in repo') {
             steps {
-                git branch: 'main', url:'https://github.com/tsaisreekar/my-addressbook-cicd.git'
+                git branch: 'main', url:'https://github.com/tsaisreekar/addressbook-cicd.git'
             }
         }
         stage('maven compile') {
@@ -26,5 +26,4 @@ pipeline {
             }
         }
     }
-    
 }
