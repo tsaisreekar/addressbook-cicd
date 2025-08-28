@@ -27,4 +27,3 @@ pipeline {
         }
     }
 }
-this is jenkins file
